@@ -1,0 +1,6 @@
+C:\Users\tomwi\RiderProjects\HW5\Primes\bin\Debug\Primes.exe
+C:\Users\tomwi\RiderProjects\HW5\Primes\bin\Debug\Primes.pdb
+C:\Users\tomwi\RiderProjects\HW5\Primes\obj\Debug\Primes.csprojResolveAssemblyReference.cache
+C:\Users\tomwi\RiderProjects\HW5\Primes\obj\Debug\Primes.csproj.CoreCompileInputs.cache
+C:\Users\tomwi\RiderProjects\HW5\Primes\obj\Debug\Primes.exe
+C:\Users\tomwi\RiderProjects\HW5\Primes\obj\Debug\Primes.pdb

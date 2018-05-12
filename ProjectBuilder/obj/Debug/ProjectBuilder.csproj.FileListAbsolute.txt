@@ -1,0 +1,6 @@
+C:\Users\tomwi\RiderProjects\HW5\ProjectBuilder\bin\Debug\ProjectBuilder.exe
+C:\Users\tomwi\RiderProjects\HW5\ProjectBuilder\bin\Debug\ProjectBuilder.pdb
+C:\Users\tomwi\RiderProjects\HW5\ProjectBuilder\obj\Debug\ProjectBuilder.csprojResolveAssemblyReference.cache
+C:\Users\tomwi\RiderProjects\HW5\ProjectBuilder\obj\Debug\ProjectBuilder.csproj.CoreCompileInputs.cache
+C:\Users\tomwi\RiderProjects\HW5\ProjectBuilder\obj\Debug\ProjectBuilder.exe
+C:\Users\tomwi\RiderProjects\HW5\ProjectBuilder\obj\Debug\ProjectBuilder.pdb

@@ -1,0 +1,6 @@
+C:\Users\tomwi\RiderProjects\HW5\HW5.1\bin\Debug\HW5._1.exe
+C:\Users\tomwi\RiderProjects\HW5\HW5.1\bin\Debug\HW5._1.pdb
+C:\Users\tomwi\RiderProjects\HW5\HW5.1\obj\Debug\HW5.1.csprojResolveAssemblyReference.cache
+C:\Users\tomwi\RiderProjects\HW5\HW5.1\obj\Debug\HW5.1.csproj.CoreCompileInputs.cache
+C:\Users\tomwi\RiderProjects\HW5\HW5.1\obj\Debug\HW5._1.exe
+C:\Users\tomwi\RiderProjects\HW5\HW5.1\obj\Debug\HW5._1.pdb

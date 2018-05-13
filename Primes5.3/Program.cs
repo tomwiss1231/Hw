@@ -24,21 +24,20 @@ namespace Primes5._3
             {
                 CancellationToken = cts.Token,                
             };
-            
-            Parallel.For(first, last + 1, (num) =>
+            try
             {
-                var randomInt = random.Next(10000000);
-                if (randomInt == 0)
-                {                                        
-                    cts.Cancel();                    
-                }
-
-                if (!cts.Token.IsCancellationRequested)
+                Parallel.For(first, last + 1, option,(num) =>
                 {
+                    var randomInt = random.Next(10000000);
+                    if (randomInt == 0)
+                    {                                        
+                        cts.Cancel();
+                    }                                
+                
                     var isPrime = num % 2 != 0;
-                
+            
                     var boundary = (int)Math.Floor(Math.Sqrt(num));
-                
+            
                     for (var i = 3; i <= boundary && isPrime; ++i)
                     {
                         if (num % i == 0)
@@ -48,10 +47,14 @@ namespace Primes5._3
                         }
                     }
 
-                    if (isPrime) results.Add(num);
-                }
-                
-            });
+                    if (isPrime) results.Add(num);                                
+                });
+
+            }
+            catch (OperationCanceledException)
+            {
+            } 
+
 
             return results.OrderBy(num => num).ToList();
         }

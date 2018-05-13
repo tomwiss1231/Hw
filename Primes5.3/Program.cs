@@ -22,8 +22,7 @@ namespace Primes5._3
 
             var option = new ParallelOptions
             {
-                CancellationToken = cts.Token,
-                MaxDegreeOfParallelism = 1
+                CancellationToken = cts.Token,                
             };
             
             Parallel.For(first, last + 1, (num) =>

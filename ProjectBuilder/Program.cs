@@ -13,11 +13,12 @@ namespace ProjectBuilder
         
         public static void Main(string[] args)
         {
+            
             var project1Task = Task.Run(() =>
             {
                 Console.Out.WriteLine("project1Task");
                 ProjectDelay();
-            });
+            });            
             
             var project2Task = Task.Run(() =>
             {
@@ -37,30 +38,29 @@ namespace ProjectBuilder
                 ProjectDelay();
             });
             
-            var project5Task = Task.Run(() =>
-            {
-                Task.WaitAll(project1Task, project2Task, project3Task);
+            var project5Task = Task.Factory.ContinueWhenAll(new[] { project1Task, project2Task, project3Task }
+                , _ =>
+            {                
                 Console.Out.WriteLine("project5Task");
                 ProjectDelay();
             }); 
             
-            var project6Task = Task.Run(() =>
-            {
-                Task.WaitAll(project3Task, project4Task);
+            var project6Task = Task.Factory.ContinueWhenAll(new[] { project3Task, project4Task }, 
+            _ =>
+            {                
                 Console.Out.WriteLine("project6Task");
                 ProjectDelay();
             });
 
-            var project7Task = Task.Run(() =>
-            {
-                Task.WaitAll(project5Task, project6Task);
+            var project7Task = Task.Factory.ContinueWhenAll(new [] { project5Task, project6Task }, 
+            _ =>
+            {                
                 Console.Out.WriteLine("project7Task");
                 ProjectDelay();
             });
 
-            var project8Task = Task.Run(() =>
-            {
-                Task.WaitAll(project5Task);
+            var project8Task = project5Task.ContinueWith(_ =>
+            {                
                 Console.Out.WriteLine("project8Task");
                 ProjectDelay();
             });

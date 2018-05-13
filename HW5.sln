@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primes", "Primes\Primes.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBuilder", "ProjectBuilder\ProjectBuilder.csproj", "{342F0E3D-8EBA-4F72-A4D1-D5F0284B7D1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primes5.3", "Primes5.3\Primes5.3.csproj", "{400C9153-DECA-4C9D-8DB7-B94B43841079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{342F0E3D-8EBA-4F72-A4D1-D5F0284B7D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{342F0E3D-8EBA-4F72-A4D1-D5F0284B7D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{342F0E3D-8EBA-4F72-A4D1-D5F0284B7D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400C9153-DECA-4C9D-8DB7-B94B43841079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400C9153-DECA-4C9D-8DB7-B94B43841079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400C9153-DECA-4C9D-8DB7-B94B43841079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400C9153-DECA-4C9D-8DB7-B94B43841079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

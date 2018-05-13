@@ -26,17 +26,19 @@ namespace Primes
                     Console.Out.WriteLine("Loop stop!!!!!");
                     state.Stop();                    
                 }
-                var isPrime = num % 2 != 0;
+                var isPrime = true; 
+                if (num == 1) isPrime = false;
+                else if (num == 2) isPrime =  true;
+                else if (num % 2 == 0)  isPrime = false;
+                
                 
                 var boundary = (int)Math.Floor(Math.Sqrt(num));
                 
                 for (var i = 3; i <= boundary && isPrime; ++i)
                 {
-                    if (num % i == 0)
-                    {                        
-                        isPrime = false;
-                        break;
-                    }
+                    if (num % i != 0) continue;
+                    isPrime = false;
+                    break;
                 }
 
                 if (isPrime) results.Add(num);

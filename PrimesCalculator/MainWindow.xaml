@@ -27,11 +27,18 @@
             <TextBox Name="Last"
                      Width="50"/>
         </StackPanel>
-                
-        <Button Content="Calculate" 
-                Click="Calculate_OnClick" 
-                Grid.Row="2"
-                Width="55"/>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2">
+
+            <Button Content="Cancel" 
+                    Click="Cancel_OnClick"                     
+                    Width="55"/>
+
+            <Button Content="Calculate" 
+                    Click="Calculate_OnClick"                     
+                    Width="55"/>
+
+        </StackPanel>
         
         <ListBox Name="NumList" 
                  Grid.Row="3"/>

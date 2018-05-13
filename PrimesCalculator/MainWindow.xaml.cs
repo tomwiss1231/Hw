@@ -38,6 +38,8 @@ namespace PrimesCalculator
         }
         
         private Thread _currentPrimeCalThread;
+        private AutoResetEvent _autoEvent;
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -46,21 +48,42 @@ namespace PrimesCalculator
         private void Calculate_OnClick(object sender, RoutedEventArgs e)
         {
 
+            _autoEvent = new AutoResetEvent(false);
             var first = Convert.ToInt32(First.Text);
             var last = Convert.ToInt32(Last.Text);
             
+            
             _currentPrimeCalThread = new Thread(() =>
             {
-                var listOfPrime = CalcPrimes(first, last);
-                
-                Dispatcher.Invoke(() =>
+                try
                 {
-                    NumList.ItemsSource = listOfPrime;
-                });
+                    var listOfPrime = CalcPrimes(first, last);
+                    Dispatcher.Invoke(() =>
+                    {
+                        NumList.ItemsSource = listOfPrime;
+                    });
+
+                }
+                catch (ThreadAbortException)
+                {
+                   _autoEvent.Set();
+                }
+                
+                
             });                                    
             
             _currentPrimeCalThread.Start();
             
+        }
+
+        private void Cancel_OnClick(object sender, RoutedEventArgs e)
+        {
+            if (_currentPrimeCalThread != null && _currentPrimeCalThread.IsAlive)
+            {
+                _currentPrimeCalThread.Abort();
+                _autoEvent.WaitOne();
+                MessageBox.Show("Canceled", "Info");
+            }
         }
     }
 }

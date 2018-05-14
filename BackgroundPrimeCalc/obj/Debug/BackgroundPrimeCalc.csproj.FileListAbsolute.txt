@@ -1,0 +1,15 @@
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\bin\Debug\BackgroundPrimeCalc.exe.config
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\bin\Debug\BackgroundPrimeCalc.exe
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\bin\Debug\BackgroundPrimeCalc.pdb
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.csprojResolveAssemblyReference.cache
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\MainWindow.g.cs
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\App.g.cs
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc_MarkupCompile.cache
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc_MarkupCompile.lref
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\MainWindow.baml
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.g.resources
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.Properties.Resources.resources
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.csproj.GenerateResource.cache
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.csproj.CoreCompileInputs.cache
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.exe
+C:\Users\tomwi\RiderProjects\HW5\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.pdb

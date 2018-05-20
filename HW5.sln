@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesCalculator", "PrimesC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundPrimeCalc", "BackgroundPrimeCalc\BackgroundPrimeCalc.csproj", "{4CF8C11E-B2B4-405C-B3EF-5DE4794C5155}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundPrimeCalcAsync", "BackgroundPrimeCalcAsync\BackgroundPrimeCalcAsync.csproj", "{0043CFF8-24AD-4DE8-8F0B-3B11D52A1C26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{4CF8C11E-B2B4-405C-B3EF-5DE4794C5155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CF8C11E-B2B4-405C-B3EF-5DE4794C5155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CF8C11E-B2B4-405C-B3EF-5DE4794C5155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0043CFF8-24AD-4DE8-8F0B-3B11D52A1C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0043CFF8-24AD-4DE8-8F0B-3B11D52A1C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0043CFF8-24AD-4DE8-8F0B-3B11D52A1C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0043CFF8-24AD-4DE8-8F0B-3B11D52A1C26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

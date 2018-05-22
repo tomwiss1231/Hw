@@ -1,0 +1,15 @@
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\bin\Debug\ImageManip.exe.config
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\bin\Debug\ImageManip.exe
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\bin\Debug\ImageManip.pdb
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.csprojResolveAssemblyReference.cache
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\MainWindow.g.cs
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\App.g.cs
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip_MarkupCompile.cache
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip_MarkupCompile.lref
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\MainWindow.baml
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.g.resources
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.Properties.Resources.resources
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.csproj.GenerateResource.cache
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.csproj.CoreCompileInputs.cache
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.exe
+C:\Users\tomwi\RiderProjects\HW5\ImageManip\obj\Debug\ImageManip.pdb
